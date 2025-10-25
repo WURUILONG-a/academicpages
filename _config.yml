@@ -22,14 +22,14 @@ repository               : "WURUILONG-a/academicpages"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  avatar           : "profile.jpg"
+  name             : "Ruilong Wu"
+  pronouns         : #""  
+  bio              : "Master's student at Lanzhou University of Technology, specializing in fault diagnosis of hydraulic robots based on digital twins. Focused on integrating digital twin technology with practical engineering to improve the reliability of hydraulic robotic systems."
+  location         : "Lanzhou University of Technology, Lanzhou City, Gansu Province, China"
+  employer         : "Lanzhou University of Technology"
+  uri              : "https://wuruilong-a.github.io/academicpages/" 
+  email            : "232085406016@lut.edu.cn" 
 
   # Academic websites
   academia         : # URL
@@ -37,7 +37,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0009-0008-1940-4423"
   semantic         : # URL
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
@@ -53,7 +53,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -240,7 +240,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: true
       share: true
       related: true
